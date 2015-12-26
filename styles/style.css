@@ -1,7 +1,7 @@
 /***** ADD FONT *****/
 @font-face {
     font-family:Looney-Tunes-Tilt-BT;
-    src: url(fonts/Looney Tunes Tilt BT.ttf);
+    src: url(../fonts/Looney Tunes Tilt BT.ttf);
 }
 /***** DEFAULT STYLES *****/
 body {
@@ -18,11 +18,44 @@ body {
 #header-style {
 	width: 99%;
 	height:70px;
-	background-color: #3F5C93;
 	display:flex;
-	
+	border: 3px solid #e6e6e6;
+	border-radius: 10px;
+	margin-bottom: 10px;
 }
-
+.asides {
+	width: 100%;
+	height: 150px;
+	background-color: #CE0000;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border: 1px solid #e6e6e6;
+}
+#aside-wrapper {
+	width: 15%;
+	float: left;
+	margin: 10px;
+}
+#upper-aside {
+	margin-bottom: 10px;
+}
+main {
+	width: 99%;
+	height: 500px;
+	background-color: #3F5C93;
+	border: 3px solid #e6e6e6;
+	border-radius: 10px;
+}
+section {
+	width: 80%;
+	height: 80%;
+	background-color: #CE0000;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: 1px solid #e6e6e6;
+}
 header > nav > ul > li {	
 	padding: 10px;
 	align-content:center;
@@ -35,9 +68,21 @@ img {
 }
 
 h1 {
-	font-size: 1em;
+	font-size: 2em;
 	margin: 20px auto;
+	color: white;
 	font-family: Looney-Tunes-Tilt-BT;
+}
+h3 {
+	text-align: center;
+	color:white;
+}
+section>header>p {
+	text-align: center;
+	padding-left: 50px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #3F5C93;
 }
 
 /***** BUTTONS STYLES *****/
@@ -57,7 +102,7 @@ h1 {
 	-moz-border-radius:17px;
 	-webkit-border-radius:17px;
 	border-radius:17px;
-	border:1px solid #1f2f47;
+	border:1px solid white;
 	cursor:pointer;
 	color:#ffffff;
 	font-family: Looney-Tunes-Tilt-BT;
