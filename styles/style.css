@@ -4,12 +4,16 @@
     src: url(../fonts/Looney Tunes Tilt BT.ttf);
 }
 /***** DEFAULT STYLES *****/
+a {text-decoration: none; color: white;}
 body {
 	font-family: Verdana, Tahoma, sans-serif;
 	font-size: 20px;
 	background-color: #CE0000;
+	background-image: url('../img/bckg-img.jpg');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
@@ -25,7 +29,7 @@ body {
 }
 .asides {
 	width: 100%;
-	height: 150px;
+	height: 195px;
 	background-color: #CE0000;
 	-moz-border-radius:17px;
 	-webkit-border-radius:17px;
@@ -39,6 +43,23 @@ body {
 }
 #upper-aside {
 	margin-bottom: 10px;
+	font-size: .8em;
+	color: white;
+	text-align: center;
+}
+#upper-aside>header {
+	margin-top: 10px;
+}
+#upper-aside>ul {
+	list-style: none;
+	margin-top: 10px;
+}
+#upper-aside>ul li {
+	margin-bottom: 6px;
+}
+#upper-aside>header {
+	color: #3F5C93;
+	font-weight: bold;
 }
 main {
 	width: 99%;
@@ -56,17 +77,21 @@ section {
 	border-radius: 10px;
 	border: 1px solid #e6e6e6;
 }
+article {
+	margin: 15px;
+}
+section>article>p {
+	color: white;
+}
 header > nav > ul > li {	
 	padding: 10px;
 	align-content:center;
 	display:inline-block;
 }
-
 img { 
 	width: 15%;
 	border-radius: 10px;
 }
-
 h1 {
 	font-size: 2em;
 	margin: 20px auto;
@@ -77,6 +102,11 @@ h3 {
 	text-align: center;
 	color:white;
 }
+h4 {
+	color: white;
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
 section>header>p {
 	text-align: center;
 	padding-left: 50px;
@@ -84,9 +114,7 @@ section>header>p {
 	font-weight: bold;
 	color: #3F5C93;
 }
-
 /***** BUTTONS STYLES *****/
-
 .myButton {
 	-moz-box-shadow:inset 0px 0px 15px 3px #23395e;
 	-webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
