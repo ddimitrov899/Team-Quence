@@ -46,6 +46,10 @@ body {
 	font-size: .8em;
 	color: white;
 	text-align: center;
+	box-shadow: 10px 10px 10px black;
+}
+#lower-aside {
+	box-shadow: 10px 10px 10px;
 }
 #upper-aside>header {
 	margin-top: 10px;
@@ -76,6 +80,7 @@ section {
 	margin-top: 10px;
 	border-radius: 10px;
 	border: 1px solid #e6e6e6;
+	box-shadow: 10px 10px 10px;
 }
 article {
 	margin: 15px;
@@ -101,6 +106,7 @@ h1 {
 h3 {
 	text-align: center;
 	color:white;
+	font-size: 2em;
 }
 h4 {
 	color: white;
