@@ -111,9 +111,14 @@ header > nav > ul > li {
 	align-content:center;
 	display:inline-block;
 }
-img { 
+#logo { 
 	width: 15%;
 	border-radius: 10px;
+}
+section > article >  p > img{
+	width: 95%;
+	border-radius: 20px;
+	margin:18px;
 }
 h1 {
 	font-size: 1.5em;
