@@ -49,6 +49,8 @@ body {
 }
 #upper-aside>header {
 	margin-top: 10px;
+	color: #3F5C93;
+	font-weight: bold;
 }
 #upper-aside>ul {
 	list-style: none;
@@ -57,10 +59,25 @@ body {
 #upper-aside>ul li {
 	margin-bottom: 6px;
 }
-#upper-aside>header {
+#bottom-aside {
+	margin-bottom: 10px;
+	font-size: .8em;
+	color: white;
+	text-align: center;
+}
+#bottom-aside>header {
+	margin-top: 10px;
 	color: #3F5C93;
 	font-weight: bold;
 }
+#bottom-aside>ul {
+	list-style: none;
+	margin-top: 10px;
+}
+#bottom-aside>ul li {
+	margin-bottom: 6px;
+}
+
 main {
 	width: 99%;
 	height: 500px;
