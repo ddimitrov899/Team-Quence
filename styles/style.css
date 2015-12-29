@@ -1,7 +1,7 @@
 /***** ADD FONT *****/
 @font-face {
-    font-family:Looney-Tunes-Tilt-BT;
-    src: url(../fonts/Looney Tunes Tilt BT.ttf);
+    font-family:'Looney-Tunes-Tilt-BT';
+    src: url('../fonts/Looney Tunes Tilt BT.ttf');
 }
 /***** DEFAULT STYLES *****/
 a {text-decoration: none; color: white;}
@@ -9,7 +9,7 @@ body {
 	font-family: Verdana, Tahoma, sans-serif;
 	font-size: 20px;
 	background-color: #CE0000;
-	background-image: url('../img/bckg-img.jpg');
+	background-image: url('../img/bckg-img.png');
 	background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -98,7 +98,7 @@ img {
 	border-radius: 10px;
 }
 h1 {
-	font-size: 2em;
+	font-size: 1.5em;
 	margin: 20px auto;
 	color: white;
 	font-family: Looney-Tunes-Tilt-BT;
