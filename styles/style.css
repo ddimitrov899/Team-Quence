@@ -91,7 +91,6 @@ main {
 	border-radius: 10px;
 }
 section {
-	width: 80%;
 	height: 80%;
 	background-color: #CE0000;
 	float: left;
@@ -104,6 +103,7 @@ article {
 	margin: 15px;
 }
 section>article>p {
+    text-align: center;
 	color: white;
 }
 header > nav > ul > li {	
