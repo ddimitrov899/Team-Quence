@@ -60,9 +60,22 @@ body {
 	list-style: none;
 	margin-top: 10px;
 }
-#upper-aside>ul li {
+#upper-aside > ul li {
 	margin-bottom: 6px;
+	border: 3px solid rgba(0, 0, 0, 0.00);
+	width: 90%;
+	margin: 0 auto;
 }
+
+#upper-aside > ul li:hover {
+	transition: 0.3s;
+	width: 90%;
+	margin: 0 auto;
+	border: 3px solid #cc9900;
+	border-radius: 7px;
+	background-color: #ff9900;
+}
+
 
 #lower-aside {
 	margin-bottom: 10px;
@@ -79,8 +92,20 @@ body {
 	list-style: none;
 	margin-top: 10px;
 }
-#lower-aside>ul li {
+#lower-aside > ul li {
 	margin-bottom: 6px;
+	border: 3px solid rgba(0, 0, 0, 0.00);
+	width: 90%;
+	margin: 0 auto;
+}
+
+#lower-aside > ul li:hover {
+	transition: 0.3s;
+	width: 90%;
+	margin: 0 auto;
+	border: 3px solid #cc9900;
+	border-radius: 7px;
+	background-color: #ff9900;
 }
 
 main {
