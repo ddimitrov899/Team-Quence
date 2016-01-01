@@ -1,0 +1,14 @@
+@media screen and (max-width: 959px) {
+	body {
+		font-size: 18px;
+	}
+	#wrapper {
+		width: 100%;
+	}
+	.myButton {
+		font-size: .52em;
+	}
+	#header-style {
+		height: 3em;
+	}
+}
