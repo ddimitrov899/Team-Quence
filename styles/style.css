@@ -4,7 +4,7 @@
     src: url('../fonts/Looney Tunes Tilt BT.ttf');
 }
 /***** DEFAULT STYLES *****/
-a {text-decoration: none; color: white;}
+a { text-decoration: none; color: white;}
 body {
 	font-family: Verdana, Tahoma, sans-serif;
 	font-size: 20px;
@@ -126,7 +126,7 @@ article {
 	margin: 15px;
 }
 section>article>p {
-    text-align: center;
+    text-align: left;
 	color: white;
 }
 header > nav > ul > li {	
