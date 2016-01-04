@@ -109,10 +109,11 @@ body {
                     max-width: 200px;
                     margin: 2%;
                     border-radius: 15px;
+                    border: 3px solid #fff;
                 }
 
                 .block {
-                    width: auto;
+                    width: 98%;
                     height: 90%;
 
 
@@ -123,7 +124,10 @@ body {
                     }
 
                     p {
-                        border: 1px solid #FFF;
+                        border: 3px solid #FFF;
+                        border-radius: 15px;
+                        padding: 10px;
+                        width: 93%;
                     }
                 }
             }
@@ -200,7 +204,7 @@ body {
 
 
 
-            #index-aside {
+            .index-aside {
                 margin-bottom: 10px;
                 font-size: .8em;
                 color: white;
@@ -208,8 +212,6 @@ body {
                 width: 100%;
                 height: 195px;
                 background-color: #CE0000;
-                -moz-border-radius: 17px;
-                -webkit-border-radius: 17px;
                 border-radius: 17px;
                 border: 1px solid #e6e6e6;
                 box-shadow: 10px 10px 10px black;
@@ -248,10 +250,7 @@ body {
         background: -o-linear-gradient(top, #2e466e 5%, #415989 100%);
         background: -ms-linear-gradient(top, #2e466e 5%, #415989 100%);
         background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e466e', endColorstr='#415989',GradientType=0);
         background-color: #2e466e;
-        -moz-border-radius: 17px;
-        -webkit-border-radius: 17px;
         border-radius: 17px;
         border: 1px solid white;
         cursor: pointer;
@@ -269,13 +268,27 @@ body {
             background: -o-linear-gradient(top, #415989 5%, #2e466e 100%);
             background: -ms-linear-gradient(top, #415989 5%, #2e466e 100%);
             background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#415989', endColorstr='#2e466e',GradientType=0);
             background-color: #415989;
         }
 
         &:active {
             position: relative;
             top: 1px;
+        }
+    }
+}
+
+@media screen and (max-width: 5000px) {
+    body {
+        #wrapper {
+            #header-style {
+                a {
+                    width:15%;
+                    #logo {
+                        width:100%;
+                    }
+                }
+            }
         }
     }
 }
@@ -298,8 +311,10 @@ body {
                     display: none;
                 }
 
-                #logo {
-                    width: 100%;
+                a {
+                    #logo {
+                        width: 100%;
+                    }
                 }
 
                 nav {
@@ -345,7 +360,9 @@ body {
 
                             li {
                                 width: 98%;
-
+                                a{
+                                    width:98%;
+                                }
                                 .myButton {
                                     display: block;
                                     text-align: center;
@@ -366,8 +383,12 @@ body {
                 #header-style {
                     display: flex;
 
-                    #logo {
-                        width: 42%;
+                    a {
+                        width: 50%;
+
+                        #logo {
+                            width: 100%;
+                        }
                     }
 
                     nav {
