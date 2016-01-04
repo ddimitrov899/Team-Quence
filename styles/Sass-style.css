@@ -1,11 +1,12 @@
-@font-face {
+﻿@font-face {
   font-family: 'Looney Tunes Tilt BT';
-  src: url("../TEAMWORK/Team-Quence/fonts/Looney%20Tunes%20Tilt%20BT.ttf") format("truetype"); }
+  src: url("../fonts/Looney Tunes Tilt BT.ttf") format("truetype"); }
+
 body {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 20px;
   background-color: #CE0000;
-  background-image: url("../img/bckg-img.png");
+  background-image: url("../images/bckg-img.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -56,7 +57,7 @@ body {
     background-color: #3F5C93;
     border: 3px solid #e6e6e6;
     border-radius: 10px;
-    height: 580px; }
+    height: 740px; }
     body main .width-box {
       width: 80%; }
     body main .trainers-container {
@@ -66,13 +67,13 @@ body {
         margin: 1%;
         display: flex; }
         body main .trainers-container .trainers img {
-          height: 80%;
+          height: 65%;
           max-width: 200px;
           margin: 2%;
           border-radius: 15px;
           border: 3px solid #fff; }
         body main .trainers-container .trainers .block {
-          width: 98%;
+          width: 90%;
           height: 90%; }
           body main .trainers-container .trainers .block header h3 {
             font-family: Looney Tunes Tilt BT,sans-serif; }
@@ -80,7 +81,7 @@ body {
             border: 3px solid #FFF;
             border-radius: 15px;
             padding: 10px;
-            width: 93%; }
+            width: 87%; }
     body main section {
       width: 99%;
       height: 80%;
@@ -155,6 +156,15 @@ body {
               border: 3px solid #cc9900;
               border-radius: 7px;
               background-color: #ff9900; }
+  body footer p {
+    color: #fff;
+    text-align: center;
+    border: 3px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 9px; }
   body .myButton {
     -moz-box-shadow: inset 0px 0px 15px 3px #23395e;
     -webkit-box-shadow: inset 0px 0px 15px 3px #23395e;
@@ -221,6 +231,7 @@ body {
             margin-left: 1%;
             width: 98%;
             height: 95%; } }
+
 @media screen and (max-width: 959px) and (max-width: 739px) {
   body #wrapper #header-style nav {
     margin: 0;
@@ -235,6 +246,7 @@ body {
         body #wrapper #header-style nav ul li .myButton {
           display: block;
           text-align: center; } }
+
 @media screen and (max-width: 959px) and (max-width: 559px) {
   body {
     overflow-x: hidden; }
@@ -254,10 +266,13 @@ body {
         display: none;
         background-color: #CE0000;
         border: 2px solid white;
+        border-radius: 15px;
         position: absolute;
         top: 46px;
         right: 4%;
-        width: 20%; }
+        width: 25%;
+        margin-top: 5px;
+        padding-right: 25px; }
         body #wrapper #header-style nav ul li {
           padding: 1px; }
       body #wrapper #header-style nav img:hover + ul {
@@ -267,4 +282,3 @@ body {
       body #wrapper #header-style nav li:hover ul {
         display: block; } }
 
-/*# sourceMappingURL=Sass-style.css.map */
