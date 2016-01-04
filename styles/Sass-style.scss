@@ -55,7 +55,6 @@ body {
     }
 
     #header-style {
-        width: 99%;
         height: 70px;
         display: flex;
         border: 3px solid #e6e6e6;
@@ -86,8 +85,8 @@ body {
     }
 
     main {
-        width: 99%;
-        height: 500px;
+        display: flex;
+        justify-content: center;
         background-color: #3F5C93;
         border: 3px solid #e6e6e6;
         border-radius: 10px;
@@ -108,17 +107,18 @@ body {
             width: 99%;
             height: 80%;
             background-color: #CE0000;
-            float: left;
-            margin-top: 10px;
+            margin: 10px auto;
             border-radius: 10px;
             border: 1px solid #e6e6e6;
             box-shadow: 10px 10px 10px #000;
 
             header {
-                margin-top: 10px;
-                color: #CE0000;
+                margin: 10px 0 5px 0; //top,right,bottom,left
+                color: white;
+                text-align:center;
+                text-shadow: 1px 1px 10px blue;
                 font-weight: bold;
-
+                letter-spacing:1px;
                 p {
                     text-align: center;
                     font-size: 1em;
@@ -128,8 +128,13 @@ body {
             }
 
             article {
-                margin: 15px;
-
+                margin: 10px;
+                border-bottom: 1px solid white;
+                padding-bottom: 10px;
+                &:last-child {
+                    border: 0;
+                    padding-bottom: 0;
+                }
 
                 p {
                     text-align: center;
@@ -277,8 +282,16 @@ body {
             main {
                 margin-top: 10px;
 
+<<<<<<< HEAD
                 #aside-wrapper {
                     display: none;
+=======
+                div {
+                    visibility: hidden;
+                    margin: 0;
+                    width: 0;
+                    height: 0;
+>>>>>>> 57a27fa50bf407ec9b02d9f4ce793da584e0b7bf
                 }
 
                 .width-box {
