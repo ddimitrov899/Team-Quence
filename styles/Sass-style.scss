@@ -1,6 +1,6 @@
 ﻿@font-face {
     font-family: 'Looney Tunes Tilt BT';
-    src: url('../fonts/Looney Tunes Tilt BT.ttf') format('truetype');
+    src: url('../TEAMWORK/Team-Quence/fonts/Looney%20Tunes%20Tilt%20BT.ttf') format('truetype');
 }
 
 body {
@@ -399,12 +399,27 @@ body {
                             margin-left: 87%;
                             margin-top: 25px;
                         }
-
                         ul {
                             display: none;
-
+                            background-color: #CE0000;
+                            border: 2px solid white;
+                            position: absolute;
+                            top: 46px;
+                            right: 4%;
+                            width: 20%;
                             li {
+                                padding: 1px;
                             }
+                        }
+                        img:hover+ul {
+                            display: block;
+
+                        }
+                        ul:hover {
+                            display: block;
+                        }
+                        li:hover ul {
+                            display: block;
                         }
                     }
                 }
