@@ -69,9 +69,9 @@ body {
         nav {
             img {
                 visibility: hidden;
-                margin:0;
-                width:0;
-                height:0;
+                margin: 0;
+                width: 0;
+                height: 0;
             }
 
             ul {
@@ -90,6 +90,7 @@ body {
         background-color: #3F5C93;
         border: 3px solid #e6e6e6;
         border-radius: 10px;
+        height: 580px;
 
         .width-box {
             width: 80%;
@@ -97,9 +98,34 @@ body {
 
         .trainers-container {
             height: 58%;
+            width: 98%;
 
             .trainers {
                 margin: 1%;
+                display: flex;
+
+                img {
+                    height: 80%;
+                    max-width: 200px;
+                    margin: 2%;
+                    border-radius: 15px;
+                }
+
+                .block {
+                    width: auto;
+                    height: 90%;
+
+
+                    header {
+                        h3 {
+                            font-family: Looney Tunes Tilt BT,sans-serif;
+                        }
+                    }
+
+                    p {
+                        border: 1px solid #FFF;
+                    }
+                }
             }
         }
 
@@ -115,10 +141,11 @@ body {
             header {
                 margin: 10px 0 5px 0; //top,right,bottom,left
                 color: white;
-                text-align:center;
+                text-align: center;
                 text-shadow: 1px 1px 10px blue;
                 font-weight: bold;
-                letter-spacing:1px;
+                letter-spacing: 1px;
+
                 p {
                     text-align: center;
                     font-size: 1em;
@@ -131,6 +158,7 @@ body {
                 margin: 10px;
                 border-bottom: 1px solid white;
                 padding-bottom: 10px;
+
                 &:last-child {
                     border: 0;
                     padding-bottom: 0;
@@ -282,47 +310,46 @@ body {
             main {
                 margin-top: 10px;
 
-<<<<<<< HEAD
                 #aside-wrapper {
                     display: none;
-=======
-                div {
-                    visibility: hidden;
-                    margin: 0;
-                    width: 0;
-                    height: 0;
->>>>>>> 57a27fa50bf407ec9b02d9f4ce793da584e0b7bf
-                }
 
-                .width-box {
-                    margin-left: 1%;
-                    width: 98%;
-                    height: 95%;
+                    div {
+                        visibility: hidden;
+                        margin: 0;
+                        width: 0;
+                        height: 0;
+                    }
+
+                    .width-box {
+                        margin-left: 1%;
+                        width: 98%;
+                        height: 95%;
+                    }
                 }
             }
         }
     }
-}
 
-@media screen and (max-width: 739px) {
-    body {
-        #wrapper {
+    @media screen and (max-width: 739px) {
+        body {
+            #wrapper {
 
-            #header-style {
-                nav {
-                    margin: 0;
-                    width: 100%;
-                    display: flex;
-                    
-                    ul {
-                        width: 98%;
+                #header-style {
+                    nav {
+                        margin: 0;
+                        width: 100%;
+                        display: flex;
 
-                        li {
+                        ul {
                             width: 98%;
 
-                            .myButton {
-                                display: block;
-                                text-align: center;
+                            li {
+                                width: 98%;
+
+                                .myButton {
+                                    display: block;
+                                    text-align: center;
+                                }
                             }
                         }
                     }
@@ -330,33 +357,33 @@ body {
             }
         }
     }
-}
 
-@media screen and (max-width: 559px) {
-    body {
-        overflow-x: hidden;
+    @media screen and (max-width: 559px) {
+        body {
+            overflow-x: hidden;
 
-        #wrapper {
-            #header-style {
-                display: flex;
+            #wrapper {
+                #header-style {
+                    display: flex;
 
-                #logo {
-                    width: 42%;
-                }
-
-                nav {
-                    img {
-                        visibility: visible;
-                        width: 10%;
-                        height: 10%;
-                        margin-left:87%;
-                        margin-top:25px;
+                    #logo {
+                        width: 42%;
                     }
 
-                    ul {
-                        display: none;
+                    nav {
+                        img {
+                            visibility: visible;
+                            width: 10%;
+                            height: 10%;
+                            margin-left: 87%;
+                            margin-top: 25px;
+                        }
 
-                        li {
+                        ul {
+                            display: none;
+
+                            li {
+                            }
                         }
                     }
                 }

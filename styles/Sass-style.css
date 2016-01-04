@@ -56,13 +56,28 @@ body {
     justify-content: center;
     background-color: #3F5C93;
     border: 3px solid #e6e6e6;
-    border-radius: 10px; }
+    border-radius: 10px;
+    height: 580px; }
     body main .width-box {
       width: 80%; }
     body main .trainers-container {
-      height: 58%; }
+      height: 58%;
+      width: 98%; }
       body main .trainers-container .trainers {
-        margin: 1%; }
+        margin: 1%;
+        display: flex; }
+        body main .trainers-container .trainers img {
+          height: 80%;
+          max-width: 200px;
+          margin: 2%;
+          border-radius: 15px; }
+        body main .trainers-container .trainers .block {
+          width: auto;
+          height: 90%; }
+          body main .trainers-container .trainers .block header h3 {
+            font-family: Looney Tunes Tilt BT,sans-serif; }
+          body main .trainers-container .trainers .block p {
+            border: 1px solid #FFF; }
     body main section {
       width: 99%;
       height: 80%;
@@ -194,12 +209,17 @@ body {
         margin-top: 10px; }
         body #wrapper main #aside-wrapper {
           display: none; }
-        body #wrapper main .width-box {
-          margin-left: 1%;
-          width: 98%;
-          height: 95%; } }
+          body #wrapper main #aside-wrapper div {
+            visibility: hidden;
+            margin: 0;
+            width: 0;
+            height: 0; }
+          body #wrapper main #aside-wrapper .width-box {
+            margin-left: 1%;
+            width: 98%;
+            height: 95%; } }
 
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 959px) and (max-width: 739px) {
   body #wrapper #header-style nav {
     margin: 0;
     width: 100%;
@@ -212,7 +232,7 @@ body {
           display: block;
           text-align: center; } }
 
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 959px) and (max-width: 559px) {
   body {
     overflow-x: hidden; }
     body #wrapper #header-style {
