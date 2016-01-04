@@ -43,6 +43,11 @@ body {
     body #header-style #logo {
       width: 15%;
       border-radius: 10px; }
+    body #header-style nav img {
+      visibility: hidden;
+      margin: 0;
+      width: 0;
+      height: 0; }
     body #header-style nav ul li {
       padding: 10px;
       align-content: center;
@@ -55,6 +60,10 @@ body {
     border-radius: 10px; }
     body main .width-box {
       width: 80%; }
+    body main .trainers-container {
+      height: 58%; }
+      body main .trainers-container .trainers {
+        margin: 1%; }
     body main section {
       width: 99%;
       height: 80%;
@@ -170,21 +179,15 @@ body {
         margin-left: 2%;
         display: table-cell; }
         body #wrapper #header-style h1 {
-          visibility: hidden;
-          width: 0;
-          margin: 0;
-          height: 0; }
-        body #wrapper #header-style img {
+          display: none; }
+        body #wrapper #header-style #logo {
           width: 100%; }
         body #wrapper #header-style nav {
           margin-left: 17%; }
       body #wrapper main {
         margin-top: 10px; }
-        body #wrapper main div {
-          visibility: hidden;
-          margin: 0;
-          width: 0;
-          height: 0; }
+        body #wrapper main #aside-wrapper {
+          display: none; }
         body #wrapper main .width-box {
           margin-left: 1%;
           width: 98%;
@@ -202,4 +205,20 @@ body {
         body #wrapper #header-style nav ul li .myButton {
           display: block;
           text-align: center; } }
+
+@media screen and (max-width: 559px) {
+  body {
+    overflow-x: hidden; }
+    body #wrapper #header-style {
+      display: flex; }
+      body #wrapper #header-style #logo {
+        width: 42%; }
+      body #wrapper #header-style nav img {
+        visibility: visible;
+        width: 10%;
+        height: 10%;
+        margin-left: 87%;
+        margin-top: 25px; }
+      body #wrapper #header-style nav ul {
+        display: none; } }
 
