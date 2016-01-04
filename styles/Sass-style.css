@@ -74,8 +74,7 @@ body {
           font-weight: bold;
           color: #3F5C93; }
       body main section article {
-        margin: 15px;
-        background-color: #CE0000; }
+        margin: 15px; }
         body main section article p {
           text-align: center;
           color: white; }
@@ -86,7 +85,8 @@ body {
             border-radius: 20px;
             margin: 18px; }
     body main #learning-plan-container {
-      height: 95%; }
+      height: 95%;
+      width: 96%; }
     body main #aside-wrapper {
       width: 15%;
       float: left;
@@ -170,10 +170,36 @@ body {
         margin-left: 2%;
         display: table-cell; }
         body #wrapper #header-style h1 {
-          visibility: hidden; }
+          visibility: hidden;
+          width: 0;
+          margin: 0;
+          height: 0; }
         body #wrapper #header-style img {
-          margin-left: 30%;
-          width: 50%; }
-        body #wrapper #header-style ul {
-          margin-left: 25%; } }
+          width: 100%; }
+        body #wrapper #header-style nav {
+          margin-left: 17%; }
+      body #wrapper main {
+        margin-top: 10px; }
+        body #wrapper main div {
+          visibility: hidden;
+          margin: 0;
+          width: 0;
+          height: 0; }
+        body #wrapper main .width-box {
+          margin-left: 1%;
+          width: 98%;
+          height: 95%; } }
+
+@media screen and (max-width: 739px) {
+  body #wrapper #header-style nav {
+    margin: 0;
+    width: 100%;
+    display: flex; }
+    body #wrapper #header-style nav ul {
+      width: 98%; }
+      body #wrapper #header-style nav ul li {
+        width: 98%; }
+        body #wrapper #header-style nav ul li .myButton {
+          display: block;
+          text-align: center; } }
 
