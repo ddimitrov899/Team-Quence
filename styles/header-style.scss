@@ -199,18 +199,20 @@ body {
                 }
                 nav {
                     margin: 0;
-                    width: 49%;
+                    width: 49.5%;
                     display: flex;
                     float: left;
+                    height: 100%;
                     ul {
                         width: 100%;
-                        margin: 0 auto;
-                        height: 120px;
+                        height: 100%;
                         li {
                             width: 99%;
+                            height: 25%;
                             padding: 0;
                             a {
                                 width: 98%;
+                                height: 60%;
                                 padding: 6px;
                                 display: block;
                                 text-align: center;
@@ -218,14 +220,9 @@ body {
                                 border-radius: 0;
                             }
                         }
-                        li:last-child{
-                            a {
-                                border-bottom-right-radius: 10px;
-                                padding-top: 10px;
-
-                            }
+                        li:last-child>a {
+                            border-bottom-right-radius: 10px;
                         }
-
                     }
                 }
             }

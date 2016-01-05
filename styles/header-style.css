@@ -115,26 +115,27 @@ body {
       border-bottom-right-radius: 0; }
   body #wrapper #header-style nav {
     margin: 0;
-    width: 49%;
+    width: 49.5%;
     display: flex;
-    float: left; }
+    float: left;
+    height: 100%; }
     body #wrapper #header-style nav ul {
       width: 100%;
-      margin: 0 auto;
-      height: 120px; }
+      height: 100%; }
       body #wrapper #header-style nav ul li {
         width: 99%;
+        height: 25%;
         padding: 0; }
         body #wrapper #header-style nav ul li a {
           width: 98%;
+          height: 60%;
           padding: 6px;
           display: block;
           text-align: center;
           letter-spacing: 5px;
           border-radius: 0; }
-      body #wrapper #header-style nav ul li:last-child a {
-        border-bottom-right-radius: 10px;
-        padding-top: 10px; } }
+      body #wrapper #header-style nav ul li:last-child > a {
+        border-bottom-right-radius: 10px; } }
 @media screen and (max-width: 559px) {
   body {
     overflow-x: hidden; }
