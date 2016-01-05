@@ -14,5 +14,9 @@
   {
     "outputFile": "styles/footer-style.css",
     "inputFile": "styles/footer-style.scss"
+  },
+  {
+    "outputFile": "styles/trainers-main-style.css",
+    "inputFile": "styles/trainers-main-style.scss"
   }
 ]
