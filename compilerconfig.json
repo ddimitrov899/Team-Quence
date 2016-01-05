@@ -2,5 +2,9 @@
   {
     "outputFile": "styles/Sass-style.css",
     "inputFile": "styles/Sass-style.scss"
+  },
+  {
+    "outputFile": "styles/header-style.css",
+    "inputFile": "styles/header-style.scss"
   }
 ]
