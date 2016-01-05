@@ -18,5 +18,9 @@
   {
     "outputFile": "styles/trainers-main-style.css",
     "inputFile": "styles/trainers-main-style.scss"
+  },
+  {
+    "outputFile": "styles/learning-plan-main-style.css",
+    "inputFile": "styles/learning-plan-main-style.scss"
   }
 ]

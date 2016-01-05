@@ -8,7 +8,8 @@ body #wrapper main {
   background-color: #3F5C93;
   border: 3px solid #e6e6e6;
   border-radius: 10px;
-  height: auto; }
+  height: auto;
+  margin-top: 10px; }
   body #wrapper main .trainers-container {
     height: 58%;
     width: 98%; }
@@ -46,5 +47,16 @@ body #wrapper main {
           border: 3px solid #FFF;
           border-radius: 15px;
           padding: 10px;
-          width: 87%; }
+          width: 87%;
+          color: #fff; }
+
+@media screen and (max-width: 559px) {
+  body #wrapper main .trainers-container .trainers {
+    display: block;
+    text-align: center; }
+    body #wrapper main .trainers-container .trainers .block {
+      width: 99%; }
+      body #wrapper main .trainers-container .trainers .block p {
+        text-align: center;
+        margin: 0 auto; } }
 
