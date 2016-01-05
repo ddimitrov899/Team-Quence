@@ -1,7 +1,6 @@
-﻿@font-face {
+@font-face {
   font-family: 'Looney Tunes Tilt BT';
   src: url("../fonts/Looney Tunes Tilt BT.ttf") format("truetype"); }
-
 body #wrapper main {
   display: flex;
   justify-content: center;
@@ -60,3 +59,4 @@ body #wrapper main {
         text-align: center;
         margin: 0 auto; } }
 
+/*# sourceMappingURL=trainers-main-style.css.map */
