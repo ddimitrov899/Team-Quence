@@ -189,23 +189,43 @@ body {
         #wrapper {
 
             #header-style {
+                .logo {
+                    width: 49%;
+                    #logo {
+                        width: 50%;
+                        float: left;
+                        border-bottom-right-radius: 0;
+                    }
+                }
                 nav {
                     margin: 0;
-                    width: 98%;
+                    width: 49%;
                     display: flex;
-
+                    float: left;
                     ul {
-                        width: 98%;
-
+                        width: 100%;
+                        margin: 0 auto;
+                        height: 120px;
                         li {
-                            width: 98%;
-
+                            width: 99%;
+                            padding: 0;
                             a {
                                 width: 98%;
+                                padding: 6px;
                                 display: block;
                                 text-align: center;
+                                letter-spacing: 5px;
+                                border-radius: 0;
                             }
                         }
+                        li:last-child{
+                            a {
+                                border-bottom-right-radius: 10px;
+                                padding-top: 10px;
+
+                            }
+                        }
+
                     }
                 }
             }
