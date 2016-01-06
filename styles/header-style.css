@@ -1,7 +1,6 @@
-﻿@font-face {
+@font-face {
   font-family: 'Looney Tunes Tilt BT';
   src: url("../fonts/Looney Tunes Tilt BT.ttf") format("truetype"); }
-
 body {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 20px;
@@ -90,7 +89,6 @@ body {
     width: 15%; }
     body #wrapper #header-style .logo #logo {
       width: 100%; } }
-
 @media screen and (max-width: 959px) {
   body {
     font-size: 18px; }
@@ -108,21 +106,36 @@ body {
           margin-left: 17%; }
           body #wrapper #header-style nav ul {
             width: 98%; } }
-
 @media screen and (max-width: 739px) {
+  body #wrapper #header-style .logo {
+    width: 49%; }
+    body #wrapper #header-style .logo #logo {
+      width: 50%;
+      float: left;
+      border-bottom-right-radius: 0; }
   body #wrapper #header-style nav {
     margin: 0;
-    width: 98%;
-    display: flex; }
+    width: 49.5%;
+    display: flex;
+    float: left;
+    height: 100%; }
     body #wrapper #header-style nav ul {
-      width: 98%; }
+      width: 100%;
+      height: 100%; }
       body #wrapper #header-style nav ul li {
-        width: 98%; }
+        width: 99%;
+        height: 25%;
+        padding: 0; }
         body #wrapper #header-style nav ul li a {
           width: 98%;
+          height: 60%;
+          padding: 6px;
           display: block;
-          text-align: center; } }
-
+          text-align: center;
+          letter-spacing: 5px;
+          border-radius: 0; }
+      body #wrapper #header-style nav ul li:last-child > a {
+        border-bottom-right-radius: 10px; } }
 @media screen and (max-width: 559px) {
   body {
     overflow-x: hidden; }
@@ -158,3 +171,4 @@ body {
       body #wrapper #header-style nav li:hover ul {
         display: block; } }
 
+/*# sourceMappingURL=header-style.css.map */
