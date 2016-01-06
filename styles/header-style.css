@@ -1,6 +1,7 @@
-@font-face {
+﻿@font-face {
   font-family: 'Looney Tunes Tilt BT';
   src: url("../fonts/Looney Tunes Tilt BT.ttf") format("truetype"); }
+
 body {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 20px;
@@ -89,6 +90,7 @@ body {
     width: 15%; }
     body #wrapper #header-style .logo #logo {
       width: 100%; } }
+
 @media screen and (max-width: 959px) {
   body {
     font-size: 18px; }
@@ -106,6 +108,7 @@ body {
           margin-left: 17%; }
           body #wrapper #header-style nav ul {
             width: 98%; } }
+
 @media screen and (max-width: 739px) {
   body #wrapper #header-style .logo {
     width: 49%; }
@@ -136,20 +139,23 @@ body {
           border-radius: 0; }
       body #wrapper #header-style nav ul li:last-child > a {
         border-bottom-right-radius: 10px; } }
+
 @media screen and (max-width: 559px) {
   body {
     overflow-x: hidden; }
     body #wrapper #header-style {
       display: flex; }
       body #wrapper #header-style .logo {
-        width: 50%; }
+        width: 50%;
+        height: 70px; }
         body #wrapper #header-style .logo #logo {
-          width: 100%; }
+          width: 100%;
+          height: 70px; }
       body #wrapper #header-style nav img {
         visibility: visible;
-        width: 10%;
-        height: 10%;
-        margin-left: 87%;
+        width: 20%;
+        height: 35%;
+        margin-left: 75%;
         margin-top: 25px; }
       body #wrapper #header-style nav ul {
         display: none;
@@ -159,11 +165,16 @@ body {
         position: absolute;
         top: 46px;
         right: 4%;
-        width: 25%;
+        width: 86%;
         margin-top: 5px;
-        padding-right: 25px; }
+        padding-right: 25px;
+        height: auto; }
         body #wrapper #header-style nav ul li {
-          padding: 1px; }
+          padding: 1px;
+          margin: 8px;
+          height: 10%; }
+          body #wrapper #header-style nav ul li:first-child {
+            border-radius: 10px; }
       body #wrapper #header-style nav img:hover + ul {
         display: block; }
       body #wrapper #header-style nav ul:hover {
@@ -171,4 +182,3 @@ body {
       body #wrapper #header-style nav li:hover ul {
         display: block; } }
 
-/*# sourceMappingURL=header-style.css.map */
