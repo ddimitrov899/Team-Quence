@@ -1,4 +1,6 @@
-﻿body main {
+body main {
+  display: flex;
+  justify-content: center;
   background-color: #3F5C93;
   border: 3px solid #e6e6e6;
   border-radius: 10px;
@@ -43,3 +45,4 @@
         text-align: center;
         color: white; }
 
+/*# sourceMappingURL=learning-plan-main-style.css.map */
