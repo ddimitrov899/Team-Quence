@@ -1,20 +1,77 @@
 ﻿/* latin-ext */
 @font-face {
-  font-family: 'Oleo Script';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oleo Script"), local("OleoScript-Regular"), url(../fonts/_weQNDK6Uf40CiGFKBBUjiYE0-AqJ3nfInTTiDXDjU4.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Oleo Script"), local("OleoScript-Regular"), url(../fonts/_weQNDK6Uf40CiGFKBBUjiYE0-AqJ3nfInTTiDXDjU4.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
 
 /* latin */
 @font-face {
-  font-family: 'Oleo Script';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oleo Script"), local("OleoScript-Regular"), url(../fonts/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Oleo Script"), local("OleoScript-Regular"), url(../fonts/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
 body {
+
     #wrapper {
+        div#audio-wrapper {
+            display: inline-block;
+            width: 35%;
+            height: auto;
+            position: relative;
+            left: 30%;
+
+            audio {
+                width: 100%;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.3);
+                border-radius: 10px;
+
+                &:hover {
+                    background: rgba(255, 255, 255, 0.6);
+                }
+            }
+
+            ul#playlist {
+                width: 100%;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.3);
+                border-radius: 10px;
+                margin-bottom: 5px;
+
+
+                &:hover {
+                    background: rgba(255, 255, 255, 0.6);
+                }
+
+                li {
+                    list-style: none;
+
+                    a {
+                        color: #000;
+                        padding: 5px;
+                        display: block;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                li.active {
+                    a {
+                        color: #5DB0E6;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
         main {
             display: flex;
             justify-content: center;
@@ -41,12 +98,13 @@ body {
                     box-shadow: 10px 10px 10px black;
 
                     header {
-                        margin-top: 10px;                       
+                        margin-top: 10px;
+
                         h3 {
                             color: #3F5C93;
                             font-weight: bold;
                             font-size: 1.2em;
-                            font-family: 'Oleo Script';                            
+                            font-family: 'Oleo Script';
                         }
                     }
 
@@ -132,6 +190,7 @@ body {
 @media screen and (max-width: 959px) {
     body {
         font-size: 18px;
+
 
         #wrapper {
             width: 100%;
