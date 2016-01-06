@@ -2,14 +2,13 @@
   font-family: 'Looney-Tunes-Tilt-BT';
   src: url("../fonts/Looney Tunes Tilt BT.ttf"); }
 
-body main {
+main {
   background-color: #3F5C93;
   border: 3px solid #e6e6e6;
   border-radius: 10px;
   height: auto; }
-  body main section {
+  main section {
     width: 96%;
-    justify-content: center;
     background-color: #CE0000;
     margin: 20px auto;
     border-radius: 10px;
@@ -17,21 +16,21 @@ body main {
     box-shadow: 10px 10px 10px #000;
     height: 95%;
     width: 96%; }
-    body main section header {
+    main section header {
       margin: 10px 0 5px 0;
       color: white;
       text-align: center;
       text-shadow: 1px 1px 10px blue;
       font-weight: bold;
       letter-spacing: 1px; }
-    body main section h3 {
+      main section header h2 {
+        font-family: 'Looney-Tunes-Tilt-BT'; }
+    main section h3 {
       font-family: 'Looney-Tunes-Tilt-BT';
-      text-align: center;
-      font-size: 1em;
       margin: 5px; }
-    body main section p {
+    main section p {
       margin: 5px; }
-    body main section #small-article {
+    main section .small-article {
       display: inline-block;
       vertical-align: middle;
       width: 30%;
@@ -40,23 +39,25 @@ body main {
       border: 1px solid white;
       border-bottom-right-radius: 20px;
       border-top-left-radius: 20px;
-      transition: 1s;
-      -webkit-transition: 1s;
-      -moz-transition: 1s; }
-      body main section #small-article:hover {
+      -webkit-transition-property: background-color;
+      /* Safari */
+      -webkit-transition-duration: 1s;
+      /* Safari */
+      transition-property: background-color;
+      transition-duration: 1s; }
+      main section .small-article:hover {
         background-color: #23395e; }
-      body main section #small-article img {
+      main section .small-article img {
         width: 90%;
         border-radius: 18px;
         margin: 18px;
         display: block;
         margin: 0 auto; }
-      body main section #small-article p {
+      main section .small-article p {
         margin-top: 6px;
         text-align: center;
         color: white; }
-    body main section #horizontal-article {
-      justify-content: center;
+    main section .horizontal-article {
       background-color: cornflowerblue;
       margin: 10px auto;
       border-radius: 10px;
@@ -64,63 +65,66 @@ body main {
       box-shadow: 10px 10px 10px #000;
       height: 95%;
       width: 96%;
-      transition: 1s;
-      -webkit-transition: 1s;
-      -moz-transition: 1s; }
-      body main section #horizontal-article:hover {
+      -webkit-transition-property: background-color;
+      /* Safari */
+      -webkit-transition-duration: 1s;
+      /* Safari */
+      transition-property: background-color;
+      transition-duration: 1s; }
+      main section .horizontal-article:hover {
         background-color: #23395e; }
-      body main section #horizontal-article img {
+      main section .horizontal-article img {
         display: inline-block;
         vertical-align: central;
         width: 25%;
         margin: 15px;
         border-radius: 130px; }
-      body main section #horizontal-article #info-container {
+      main section .horizontal-article .info-container {
         display: inline-block;
         vertical-align: top;
         width: 70%;
         text-align: center; }
-        body main section #horizontal-article #info-container p {
+        main section .horizontal-article .info-container p {
           margin-top: 6px;
           text-align: center;
           color: white; }
-          body main section #horizontal-article #info-container p:last-child {
+          main section .horizontal-article .info-container p:last-child {
             vertical-align: bottom;
             margin: 0 auto;
             color: greenyellow;
             text-align: right; }
 
 @media screen and (max-width: 1024px) {
-  body > #wrapper > main > section #small-article {
+  body > #wrapper > main > section .small-article {
     margin: 7px; }
-  body > #wrapper > main > section #horizontal-article > #info-container {
+  body > #wrapper > main > section .horizontal-article > .info-container {
     width: 65%; } }
 
 @media screen and (max-width: 960px) {
-  body > #wrapper > main > section #small-article {
-    width: 45%; } }
+  body > #wrapper > main > section .small-article {
+    width: 45%;
+    background-color: #23395e; } }
 
 @media screen and (max-width: 768px) {
-  body > #wrapper > main > section #small-article {
+  body > #wrapper > main > section .small-article {
     width: 96%; }
-    body > #wrapper > main > section #small-article img {
+    body > #wrapper > main > section .small-article img {
       width: 70%; } }
 
 @media screen and (max-width: 640px) {
   body > #wrapper > main > section {
     box-shadow: none;
     margin: 10px auto; }
-    body > #wrapper > main > section #small-article {
-      background-color: #23395e;
+    body > #wrapper > main > section .small-article {
       width: 96%; }
-      body > #wrapper > main > section #small-article img {
+      body > #wrapper > main > section .small-article img {
         width: 70%; }
-    body > #wrapper > main > section #horizontal-article {
+    body > #wrapper > main > section .horizontal-article {
       box-shadow: none; } }
 
 @media screen and (max-width: 480px) {
-  body > #wrapper > main > section #horizontal-article p:last-child {
+  body > #wrapper > main > section .horizontal-article p:last-child {
     text-align: center; }
-  body > #wrapper > main > section #horizontal-article img {
+  body > #wrapper > main > section .horizontal-article img {
     vertical-align: central; } }
 
