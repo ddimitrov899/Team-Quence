@@ -49,6 +49,16 @@ body {
                 font-size: 1.2em;
             }
 
+            article {
+                text-align: center;
+
+                img#basic-level {
+                    display: block;
+                    position: relative;
+                    left: 18%;
+                }
+            }
+
             #small-article {
                 display: inline-block;
                 vertical-align: top;
@@ -59,7 +69,15 @@ body {
                 border-bottom-right-radius: 20px;
                 border-top-left-radius: 20px;
 
+                &:nth-child(5) {
+                    position: relative;
+                    left: 20%;
+                }
 
+                &:nth-child(6) {
+                    position: relative;
+                    left: 20%;
+                }
 
                 img {
                     width: 90%;
