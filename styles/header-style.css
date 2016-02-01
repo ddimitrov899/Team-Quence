@@ -1,6 +1,7 @@
-@font-face {
+﻿@font-face {
   font-family: 'Looney Tunes Tilt BT';
   src: url("../fonts/Looney Tunes Tilt BT.ttf") format("truetype"); }
+
 body {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 20px;
@@ -89,6 +90,7 @@ body {
     width: 15%; }
     body #wrapper #header-style .logo #logo {
       width: 100%; } }
+
 @media screen and (max-width: 959px) {
   body {
     font-size: 18px; }
@@ -106,6 +108,7 @@ body {
           margin-left: 17%; }
           body #wrapper #header-style nav ul {
             width: 98%; } }
+
 @media screen and (max-width: 739px) {
   body #wrapper #header-style .logo {
     width: 49%; }
@@ -179,4 +182,3 @@ body {
       body #wrapper #header-style nav li:hover ul {
         display: block; } }
 
-/*# sourceMappingURL=header-style.css.map */

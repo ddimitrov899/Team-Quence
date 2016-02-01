@@ -1,6 +1,7 @@
-@font-face {
+﻿@font-face {
   font-family: 'Looney Tunes Tilt BT';
   src: url("../fonts/Looney Tunes Tilt BT.ttf") format("truetype"); }
+
 body #wrapper main {
   display: flex;
   justify-content: center;
@@ -49,7 +50,8 @@ body #wrapper main {
         border-radius: 3px; }
       body #wrapper main #form form input[type="button"] {
         border-radius: 3px;
-        width: 100px; }
+        width: 100px;
+        background-color: aquamarine; }
   body #wrapper main #directions {
     background-color: #CE0000;
     margin: 10px 10px;
@@ -67,5 +69,17 @@ body #wrapper main {
       letter-spacing: 1px;
       float: left;
       margin: 10px; }
+    body #wrapper main #directions ul li {
+      font-family: Looney Tunes Tilt BT;
+      font-size: 0.8em;
+      color: white;
+      text-shadow: 1px 1px 10px blue;
+      font-weight: bold;
+      letter-spacing: 1px;
+      float: left;
+      margin: 10px; }
+    body #wrapper main #directions p {
+      font-family: Looney Tunes Tilt BT;
+      font-size: 0.8em;
+      color: white; }
 
-/*# sourceMappingURL=about-style.css.map */
